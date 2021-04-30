@@ -72,8 +72,7 @@ public class Trabajador {
 		} else { 
 			
 			throw new OficioNoCoincideException();
-		}
-		
+		}	
 	}
 
 }

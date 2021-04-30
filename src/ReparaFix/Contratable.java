@@ -9,5 +9,4 @@ public interface Contratable {
 	public Boolean esAlquiler();
 	
 	public Boolean esTarea();
-
 }

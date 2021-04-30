@@ -78,5 +78,4 @@ public class Alquiler implements Contratable {
 	public Boolean esTarea() {
 		return false;
 	}	
-
 }

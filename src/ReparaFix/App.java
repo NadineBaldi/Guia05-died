@@ -61,5 +61,4 @@ public class App {
         us1.Contratar(trab3);
         
 	}
-
 }

@@ -7,5 +7,4 @@ public class Oficio {
 	public Oficio(String tipoOficio) {
 		this.tipoOficio = tipoOficio;
 	}
-
 }

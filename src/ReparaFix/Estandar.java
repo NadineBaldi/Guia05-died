@@ -23,5 +23,6 @@ public class Estandar extends Servicio {
 		} else {
 			return suma;
 		}
-	}	
+	}
+	
 }

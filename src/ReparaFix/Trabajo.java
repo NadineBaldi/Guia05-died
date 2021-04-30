@@ -61,5 +61,4 @@ public class Trabajo implements Contratable {
 	public void setFechaFin(Instant fechaFin) {
 		this.fechaFin = fechaFin;
 	}
-
 }

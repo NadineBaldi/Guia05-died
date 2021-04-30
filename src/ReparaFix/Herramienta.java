@@ -22,5 +22,4 @@ public class Herramienta {
 	public void setCostoPorDia(Double costoPorDia) {
 		this.costoPorDia = costoPorDia;
 	}
-
 }

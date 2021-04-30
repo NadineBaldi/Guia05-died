@@ -17,7 +17,6 @@ public abstract class Servicio {
 	
 	public abstract Double costo();
 
-
 	public static Oficio getOficio() {
 		return oficio;
 	}
