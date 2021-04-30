@@ -25,6 +25,7 @@ public class App {
 		Usuario us1 = new Usuario("41403744");
 		
 		Trabajador t1 = new Trabajador("Matias", "mati55@gmail.com", of1, 66.5);
+		Trabajador t2 = new Trabajador("Jorge", "jorbb@gmail.com", of3, 44.80);
 		
 		Estandar e1 = new Estandar(of1, false, 555.1);
 		Estandar e2 = new Estandar(of1, true, 555.1);
@@ -50,7 +51,7 @@ public class App {
             System.out.println("No puede contratar una nueva herramienta ya que cuenta con 2 o más sin devolver");
         }
 
-        //Contratacion a3 debería fallar porque tengo dos alquileres sin devolver 
+        //Contratacion a3 debe fallar porque tengo dos alquileres sin devolver 
         try {
         	us1.Contratar(a3);
         }catch(AlquilerNoEntregadoException e){
